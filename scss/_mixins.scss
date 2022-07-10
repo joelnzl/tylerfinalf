@@ -1,0 +1,13 @@
+@mixin parrafosmixin($margen,$paddingizq,$paddingarriba) {
+    margin-left: $margen;
+    padding-left: $paddingizq;
+    padding-top: $paddingarriba;
+}
+
+.indexp {
+    @include parrafosmixin(0, 0, 4%)
+}
+
+.fashionp {
+    @include parrafosmixin(0, 0, 80px)
+}

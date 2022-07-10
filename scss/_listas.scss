@@ -1,0 +1,27 @@
+$colores: #FFF089, #74D3BB, #D374B8, #C6C89B;
+
+$encabezados: 2.5rem, 2rem;
+
+.indexbody {
+    background-color: nth($colores ,1);
+}
+
+.okonmabody {
+    background-color: nth($colores ,2);
+}
+
+.musicbody {
+    background-color: nth($colores ,3);
+}
+
+.fashionbody {
+    background-color: nth($colores ,4);
+}
+
+h1 {
+    font-size: nth($encabezados, 1);
+}
+
+h2 {
+    font-size: nth($encabezados, 2);
+}
